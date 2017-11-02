@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+          src="http://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+        </script>
+        <title>Strong Password</title>
+        <script>
+            $(document).ready(function(){
+                $( "#backbutton" ).click(function(e){
+                    e.preventDefault();
+                    window.location.href = 'http://ec2-18-221-58-228.us-east-2.compute.amazonaws.com:3002';
+                })   
+            })
+            
+        </script>
+    </head>
+
+    <body>
+        <p>Your password is stronger than the 100,000 most common passwords! Press the button below to try another.</p>
+        <form>
+            <input id="backbutton" type="submit" value="Try Again">
+        </form>
+    </body>
+</html>
