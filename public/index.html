@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="stylesheets/style.css">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,11 +26,17 @@
     </head>
 
     <body>
-        <h1>How strong is your password?</h1>
+        <div class="jumbotron" style="text-align: center; background-color: darkslategray; font-family: Courier New; border-radius: 50%;"><h1 style="color: antiquewhite; font-size: 90px;">How strong is your password?</h1>
+        
+        </div>
+        <div class="container">
+        
+        <div class="pane" style="text-align: center">
         <p>Enter password below to find out! (We aren't keylogging it, I promise!)</p>
-        <form>
             <input type="password" id="password">
             <input id="passwordfield" type="submit" value="Submit">
-        </form>
+
+        </div>    
+            </div>
     </body>
 </html>
